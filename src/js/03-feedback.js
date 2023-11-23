@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const emailarea = document.querySelector('#email');
     const form = document.querySelector('.feedback-form');
 
-    console.log('message:', message);
-    console.log('emailarea:', emailarea);
-    console.log('form:', form);
+    // console.log('message:', message);
+    // console.log('emailarea:', emailarea);
+    // console.log('form:', form);
 
     if (!message || !emailarea || !form) {
         console.error('One or more elements not found.');
